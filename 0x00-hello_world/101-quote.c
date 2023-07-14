@@ -1,4 +1,4 @@
-#include <stdio.h
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: 'AlX 101-quote.c'
