@@ -5,8 +5,8 @@
 /**
 * main - Entry Point
 * Description:'ALX conditional clause in c'
-* Return - if n is gearter thabn 1 Always iccuss)
-* Return - Always 0 (Success)
+* Printf - print the condition of n
+* Return: Always 0 (Success)
 */
 
 int main(void)
@@ -15,18 +15,20 @@ int main(void)
 	/*get random num*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* first check n is gerater than 0 */
+	/* first cheeck n is gerater than 0 */
 	if (n > 0)
 	{
-	return ("is positive");
+	printf("%d is positive\n", n);
 	}
-	/*second check n is equal to 0 */
+	/*second cheeck n is equal to 0 */
 	else if (n == 0)
 	{
-	return ("is zero");
+	printf("%d is zero\n", n);
 	}
-	/* finally returnr 'is negative' */
-	else {
-	return ("is negative");
+	/* finally return 'is negative' */
+	else
+	{
+	printf("%d is negative\n", n);
 	}
+	return (0);
 }
