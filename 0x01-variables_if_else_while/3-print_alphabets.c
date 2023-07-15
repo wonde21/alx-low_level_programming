@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar(Lcase);
 	}
-	for (Ucase = 'A' Ucase <= 'Z'; Ucase++)
+	for (Ucase = 'A'; Ucase <= 'Z'; Ucase++)
 	{
 		putchar(Ucase);
 	}
