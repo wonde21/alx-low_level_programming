@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * main - Entry point
@@ -9,13 +8,18 @@
 
 int main(void)
 {
-	char character;
+	char Lcase;
+	char Ucase;
 
-	for (character = 'a'; character <= 'z'; character++)
+	for (Lcase = 'a'; Lcase <= 'z'; Lcase++)
 	{
-		putchar(character);
-		putchar(toupper(character));
-		putchar('\n');
+		putchar(Lcase);
 	}
+	for (Ucase = 'A' Ucase <= 'Z'; Ucase++)
+	{
+		putchar(Ucase);
+	}
+	Putchar('\n');
+
 	return (0);
 }
