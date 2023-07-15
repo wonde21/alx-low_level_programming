@@ -4,7 +4,7 @@
 
 /**
 * main - Entry Point
-* Description:'ALX conditional close in c'
+* Description:'ALX conditional clause in c'
 * Return - if n is gearter thabn 1 Always iccuss)
 * Return - Always 0 (Success)
 */
