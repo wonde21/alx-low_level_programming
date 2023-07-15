@@ -1,11 +1,12 @@
 #include <stdlib.h>
-#inclue <stdio.h>
+#include <stdio.h>
 #include <time.h>
 
 /**
 * main - Entry Point
 * Description:'ALX conditional close in c'
 * Return - if n is gearter thabn 1 Always iccuss)
+* Return - Always 0 (Success)
 */
 
 int main(void)
