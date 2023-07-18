@@ -6,6 +6,6 @@
  * Return: Always 0
  */
 
-int _islower(char c){
+int _islower(int c){
 	return islower(c) ? 1: 0;
 }
