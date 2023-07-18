@@ -2,10 +2,12 @@
 #include "main.h"
 
 /**
- * int _islower - "Identify the lower than c"
- * Return: Always 0
+ * _islower - "Identify the lower than c"
+ * c: parametr character 
+ * Return: islower 1 else 0
  */
 
-int _islower(int c){
-	return islower(c) ? 1: 0;
+int _islower(int c)
+{
+	return islower((c) ? 1: 0);
 }
