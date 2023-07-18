@@ -3,7 +3,7 @@
 
 /**
  * _islower - "Identify the lower than c"
- * c: parametr character 
+ * @parameterc: parametr character 
  * Return: islower 1 else 0
  */
 
