@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * main - Entry point of the prgram
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	_putchar("_putchar");
+	char ch[];
+	_putchar(ch[]);
 
 	return (0);
 }
