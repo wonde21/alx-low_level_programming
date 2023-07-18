@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include "main.h"
 
 /**
@@ -5,8 +6,8 @@
  * Return: Always 0
  */
 
-int _islower(int c){
-	if (c < 'c')
+int _islower(char c){
+	if (islower(c))
 	{
 		return (1);
 	}
