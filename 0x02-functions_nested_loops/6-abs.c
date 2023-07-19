@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ * _abs - compute absolutevalue of n
+ * @n: intiger nember
+ * Return: abs of a parameter
+ */
+
+int _abs(int n)
+{
+	return (int abs(int n));
+}
