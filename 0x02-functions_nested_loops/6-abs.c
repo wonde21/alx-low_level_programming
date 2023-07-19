@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _abs - compute absolutevalue of n
@@ -8,7 +9,7 @@
 
 int _abs(int n)
 {
-	int result = abs(n);
+	int result = int abs(int n);
 
 	return (result);
 }
