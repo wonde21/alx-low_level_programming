@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print FizzBuzz
+ * main - print fizzbuzz
  * Return: Always 0 (Success)
  */
 
@@ -33,5 +33,6 @@ int main(void)
 			printf(" ");
 		}
 	}
+	printf("\n");
 	return (0);
 }
