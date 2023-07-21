@@ -8,14 +8,20 @@ void more_numbers(void)
 {
 	int i;
 	int j;
+	int arr[15] = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '1', '2', '3', '4'];
 
-	for (i = '0'; i <= '10'; i++)
+	for (i = 0; i <= 10; i++)
 	{
-		j = '0';
+		int n = 0;
 
-		while (j <= '14')
+		while (j[n] != '\0')
 		{
-			_putchar(j);
+			if (n > 9)
+			{
+				_putchar('1');
+				_putchar(arr[n]);
+			}
+			n++;
 		}
 
 		_putchar('\n');
