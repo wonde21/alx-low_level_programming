@@ -21,8 +21,9 @@ void more_numbers(void)
 			if (n > 9)
 			{
 				_putchar('1');
-				_putchar(arr[n]);
 			}
+			
+			_putchar(arr[n]);
 			n++;
 		}
 
